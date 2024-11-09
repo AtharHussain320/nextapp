@@ -7,7 +7,7 @@ import Menu from "./components/menu";
 import Client from "./components/client";
 
 
-export default function(){
+export default function Home(){
     return(
         <div className="bg-[#f5f5dc]">
         <Header />
