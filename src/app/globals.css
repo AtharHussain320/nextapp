@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(104, 76, 7);
+}
+
+
+.connect{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: center;
+    padding-top: 200px;
+}
+
+
+.about{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+
+
+@keyframes slide {
+    0%{
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.slide-eff{
+    animation: slide
+    0.5s ease-out forwards;
+}
+
+
+
+
+
+
+.potfolio{
+    width: 100%;
+    height: 600px;
+}
+
+
+
+
+
+
+.gallary{
+    width: 100%;
+    height: 2000px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.footer{
+    width: 100%;
+    height: 320px;
+    background-color:rgb(104, 76, 7);
+}
+
+
+
+.client{
+    width: 100%;
+    height: 800px;
+    background-color:rgb(236, 238, 238);
+    padding-top: 60px;
+}
+
+.im{
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+}
