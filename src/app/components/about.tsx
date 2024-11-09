@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import React from 'react'
 
-const About = () => {
+
+export default function About() {
     return (
         <div className="about md:flex-row lg:flex-row md:justify-center md:gap-10 ">
             <Image src="/del.jpg" alt='coffee' width={220} height={220} className='rounded-3xl md:w-[320px] md:h-[260px]'/>
@@ -14,4 +14,4 @@ const About = () => {
     )
 }
 
-export default About
+

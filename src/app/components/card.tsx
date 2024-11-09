@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-const Card = () => {
+export default function Card () {
     return (
         <div>
             <div className='w-[320px] flex flex-col justify-center items-center m-auto p-7 rounded-2xl gap-8 bg-slate-200 md:w-[600px]'>
@@ -19,4 +19,3 @@ const Card = () => {
     )
 }
 
-export default Card

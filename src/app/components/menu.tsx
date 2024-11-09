@@ -4,7 +4,7 @@ interface Plisto {
 }
 
 
-const Menu = () => {
+export default function Menu(){
   const plist: Plisto[] = [
     {
       name: "Jamaican blue mountain",
@@ -96,4 +96,3 @@ const Menu = () => {
   )
 }
 
-export default Menu

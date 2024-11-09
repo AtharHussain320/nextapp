@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Header = () => {
+export default function Header(){
   return (
     <div className="connect bg-cover bg-center gap-6 md:justify-start" style={{ backgroundImage: ("url('/hp.jpg')") }}>
       <div className='flex flex-col justify-start items-center'>
@@ -13,4 +13,4 @@ const Header = () => {
   )
 }
 
-export default Header
+

@@ -1,7 +1,7 @@
 import { url } from "inspector"
 
 
-const Aallary = () => {
+export default function Aallary(){
   return (
 
     <div className='gallary md:flex-col md:h-[900px]'>
@@ -44,4 +44,3 @@ const Aallary = () => {
   )
 }
 
-export default Aallary
