@@ -1,5 +1,3 @@
-import { url } from "inspector"
-
 
 export default function Aallary(){
   return (
