@@ -8,7 +8,7 @@ export default function Card () {
                     iusto voluptatum?  pariatur  dolores soluta doloremque itaque explicabo atque, mollitia
                     corrupti facere qui distinctio ducimus dolore hic.</p>
                 <Image className='im'
-                    src="/aa.png"
+                    src="/R.jpg"
                     alt='client'
                     width={200}
                     height={200} />

@@ -71,30 +71,34 @@
 
 .gallary{
     width: 100%;
-    height: 2000px;
+    height: 1350px;
     background-color:white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    gap: 20px;
 }
 
 
 
 .footer{
     width: 100%;
-    height: 320px;
+    height: 260px;
     background-color:rgb(104, 76, 7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
 
 .client{
     width: 100%;
-    height: 800px;
+    height: 900px;
     background-color:rgb(236, 238, 238);
     padding-top: 60px;
+    gap: 20px;
 }
 
 .im{
