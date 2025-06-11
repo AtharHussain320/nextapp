@@ -36,7 +36,7 @@ export default function Navbar() {
 
             <ul className="flex justify-between items-center gap-6">
                 {List.map((items) => (
-                    <li className="text-white" ><Link href={items.id}>{items.name}</Link></li>
+                    <li className="text-white" key={items.id} ><Link href={items.id}>{items.name}</Link></li>
                 ))}
             </ul>
         </div>
