@@ -27,19 +27,19 @@ export default function Slide(){
   };
 
   return (
-    <div className="w-[100%] h-[400px] bg-white flex flex-col justify-around items-center  ">
+    <div className="w-[100%] h-[400px] bg-white flex flex-col justify-around items-center md:hidden  ">
       <div className="image-container">
         <Image
           src={images[currentIndex]}
           alt={`Image ${currentIndex + 1}`}
           width = {300}
           height = {200}
-          className=""
+          className="rounded-full"
         />
       </div>
       <div className="w-[100%] flex justify-center items-center gap-20">
-        <button onClick={handlePrevious} className="py-4 px-8 bg-orange-100 rounded-full text-black md:hidden">Previous</button>
-        <button onClick={handleNext} className="py-4 px-12 bg-orange-100 rounded-full text-black md:hidden">Next</button>
+        <button onClick={handlePrevious} className="py-4 px-8 bg-amber-500 rounded-full text-black md:hidden">Previous</button>
+        <button onClick={handleNext} className="py-4 px-12 bg-amber-500 rounded-full text-black md:hidden">Next</button>
       </div>
     </div>
   );

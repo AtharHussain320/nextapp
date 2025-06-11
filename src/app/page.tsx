@@ -10,7 +10,7 @@ import Slide from "./components/slide";
 
 export default function Home(){
     return(
-        <div className="bg-[#f5f5dc]">
+        <div className="bg-slate-200">
         <Header />
         <About />
         <Menu />
